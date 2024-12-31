@@ -1,3 +1,9 @@
+Tonyinsall.com is a website compiled by Insallconsulting.com
+The Helios template by HTML5 UP has been used as a base and adapted as necessary.
+All images and copy found on tonyinsall.com are the property of, or under license to, Tony Insall or Biteback Publishing.
+
+Here is the original readme.txt for the Helios template used:
+
 Helios by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
