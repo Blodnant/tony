@@ -368,7 +368,7 @@
 		&.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 4em 0;
+			margin: 0 0 1em 0;
 		}
 
 		&.left {
@@ -379,7 +379,7 @@
 		&.centered {
 			display: block;
 			width: 100%;
-			margin: 0 0 2em 0;
+			margin: 0 0 4em 0;
 
 			img {
 				margin: 0 auto;
@@ -672,6 +672,7 @@
 		&:before {
 			line-height: inherit;
 			font-size: 1.25em;
+			color: #fff;
 		}
 
 		> .label {
@@ -686,7 +687,7 @@
 
 		&.brands {
 			&:before {
-				font-family: futura;
+				font-family: 'Font Awesome 5 Brands';
 			}
 		}
 
@@ -1060,6 +1061,7 @@
 		overflow: hidden;
 		padding: 2em 0 2em 0;
 		margin-bottom: 0;
+		vertical-align: top;
 
 		.forward, .backward {
 			position: absolute;
@@ -1134,6 +1136,7 @@
 			position: relative;
 			-webkit-overflow-scrolling: touch;
 			padding: 0 2em 0 2em;
+			vertical-align: top;
 		}
 
 		article {
@@ -1157,7 +1160,7 @@
 				top: 0;
 				width: auto;
 				margin-right: -2em;
-				margin-bottom: 3em;
+				margin-bottom: 1em;
 			}
 
 			p {
@@ -1181,14 +1184,17 @@
 
 			.carousel {
 				padding: 1.5em 0 1.5em 0;
+				vertical-align: top;
 
 				.reel {
 					padding: 0 1.5em 0 1.5em;
+					vertical-align: top;
 				}
 
 				article {
 					width: 18em;
 					margin: 0 1.25em 0 0;
+					vertical-align: top;
 				}
 			}
 
@@ -1274,10 +1280,12 @@
 
 			.carousel {
 				padding: 1.25em 0 1.25em 0;
+				vertical-align: top;
 
 				article {
 					width: 18em;
 					margin: 0 1em 0 0;
+					vertical-align: top;
 				}
 			}
 
@@ -1649,15 +1657,18 @@
 
 			.carousel {
 				padding: 0.5em 0 0.5em 0;
+				vertical-align: top;
 
 				.reel {
 					padding: 0 0.5em 0 0.5em;
+					vertical-align: top;
 				}
 
 				article {
 					width: 14em;
 					padding-bottom: 2em;
 					margin: 0 0.5em 0 0;
+					vertical-align: top;
 
 					.image {
 						margin-bottom: 2em;
